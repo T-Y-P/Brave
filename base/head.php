@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-
 <head>
 	<meta charset="<?php $this->options->charset(); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +11,9 @@
 			), '', ' - '); ?><?php $this->options->title(); ?></title>
 	<!-- 通过自有函数输出HTML头部信息 -->
 	<?php $this->header(); ?>
+	<link rel="icon" href="<?php $this->options->WebIcon(); ?>">
+	<link rel="stylesheet" href="/usr/themes/Brave/botui/botui.min.css" />
+    <link rel="stylesheet" href="/usr/themes/Brave/botui/botui-theme-default.css" />
 	<link rel="stylesheet" href="<?php $this->options->themeUrl('/base/style.css'); ?>">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
