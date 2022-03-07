@@ -56,6 +56,7 @@ function loveListAcc($atts, $content = '')
             $out .= '</span></h2></div>';
             $out .= '<div id="collapse'.$key.'" class="collapse" aria-labelledby="heading'.$key.'" data-parent="#loveList">';
             $out .= '<div class="card-body p-0">';
+            $out .= '<div class="lover-card-title" style="padding:10px 8px 10px 8px;">清单完成时间：'.$value['listct'].'</div>';
             $out .= '<section style="background-image: url('.$value['img'].')"></section>';
             $out .= '</div></div></div>';
         }
