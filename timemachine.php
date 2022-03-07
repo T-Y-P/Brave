@@ -3,7 +3,7 @@
 /**
  * 时光机
  * @package custom
- * Author: Veen Zhao
+ * Author: Veen Zhao & pyrroleach
  * CreateTime: 2020/9/6 15:38
  */
 $this->need('base/head.php');
