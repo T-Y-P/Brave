@@ -2,7 +2,7 @@
 /**
  * 关于我们
  * @package custom
- * Author: ace
+ * Author: pyrroleach
  * CreateTime: 2022/02/10
  * about-us page
  */
