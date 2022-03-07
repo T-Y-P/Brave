@@ -1,9 +1,9 @@
 <?php
 
 /**
- * 勇敢爱
+ * 勇敢爱 主题由pyrroleach做简单修改
  * @package     Brave
- * @author      Veen Zhao
+ * @author      Veen Zhao 
  * @version     1.0
  * @link        https://blog.zwying.com
  */
@@ -11,16 +11,14 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 $this->need('base/head.php');
 $this->need('base/nav.php');
 ?>
-
 <div class="list-content mx-auto mt-5">
     <div class="list-top">
         <h5 class="list-text">💕世间最动情之事，莫过于两人相依💑，走过四季三餐的温暖。<br>📜相信在以后会有更多美好的事情发生😊</h5>
         <?php if ($this->have()) : ?>
             <?php while ($this->next()) : ?>
-
-                <article style="padding: 20px;border-bottom: 1px solid rgba(0,123,255,.2);text-align: center;" class="post" itemscope itemtype="http://schema.org/BlogPosting">
-                    <h4 class="post-title" itemprop="name headline"><a class=" list-wbc" itemprop="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h4>
-                    <time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"> 深情地写于 <?php $this->date(); ?></time>
+                <article style="padding: 20px;border-bottom: 1.2px solid rgba(0,123,255,.2);text-align: center;border-radius: 8px; box-shadow: 1px 4px 15px rgb(125 147 178 / 30%);margin-bottom: 25px;" class="post" itemscope itemtype="http://schema.org/BlogPosting">
+                    <h4 class="post-title" style="font-family:FangzhengKT;font-size:26px;" itemprop="name headline"><a style="color:#973444;" itemprop="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h4>
+                    <time datetime="<?php $this->date('c'); ?>" itemprop="datePublished" style="color:#666;" > <?php $this->author(); ?> <span class="lover-card-title">深情地写于</span> <?php $this->date(); ?></time>
                 </article>
             <?php endwhile; ?>
         <?php else : ?>
@@ -31,5 +29,4 @@ $this->need('base/nav.php');
         <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
     </div>
 </div>
-
 <?php $this->need('base/footer.php'); ?>
