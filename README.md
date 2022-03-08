@@ -16,3 +16,5 @@ Typecho情侣主题Brave由[Veen Zhao](https://blog.zwying.com/)设计，主题�
 11. 美化祝福板页面
 12. 添加时光机页面（基于祝福板）
 13. 美化点点滴滴文章的翻页按钮
+
+**欢迎大家为我的网站送上祝福**：https://xiaoya.pyrroleach.com
