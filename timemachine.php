@@ -76,4 +76,5 @@ $this->comments()->to($comments);
     <?php else : ?>
         <h3><?php _e('评论已关闭'); ?></h3>
     <?php endif; ?>
+        
     <?php $this->need('base/footer.php'); ?>
