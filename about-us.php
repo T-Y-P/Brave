@@ -6,7 +6,6 @@
  * CreateTime: 2022/02/10
  * about-us page
  */
-
 $this->need('base/head.php');
 $this->need('base/nav.php');?>
 <div class="list-content mx-auto mt-5">
@@ -27,3 +26,4 @@ $this->need('base/nav.php');?>
 <script src="/usr/themes/Brave/botui/botui.min.js"></script>
 <script src="/usr/themes/Brave/botui/botui.js"></script>
 <?php $this->need('base/footer.php'); ?>
+        
