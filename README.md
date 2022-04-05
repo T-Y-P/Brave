@@ -14,7 +14,7 @@ Typecho情侣主题Brave由[Veen Zhao](https://blog.zwying.com/)设计，主题�
 9. 引入外部字体
 10. 美化网站主页与点点滴滴页面
 11. 美化祝福板页面
-12. 添加时光机页面（基于祝福板，如何使用请参考：https://mp.weixin.qq.com/s/DmLANIAvHVWzeq4MXYsidg）
+12. 添加时光机页面（基于祝福板，如何使用请参考：https://mp.weixin.qq.com/s/DmLANIAvHVWzeq4MXYsidg ）
 13. 美化点点滴滴文章的翻页按钮
 
 **欢迎大家为我的网站送上祝福**：https://xiaoya.pyrroleach.com
