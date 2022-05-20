@@ -44,10 +44,10 @@ function storage($storage)
 	<title><?php $this->title() ?> - <?php $this->options->title() ?></title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="<?php usePublicCdn(); ?>/Lens/css/main.css" />
+	<link rel="stylesheet" href="/usr/themes/Brave/Lens/css/main.css" />
 	<link rel="shortcut icon" href="<?php $this->options->siteUrl(); ?>/favicon.ico">
 	<noscript>
-		<link rel="stylesheet" href="<?php usePublicCdn(); ?>/Lens/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/usr/themes/Brave/Lens/css/noscript.css" /></noscript>
 	<!-- 百度统计 -->
 	<script>
 		var _hmt = _hmt || [];
@@ -138,10 +138,10 @@ function storage($storage)
 		creatArticle(datas);
 	</script>
 	<!-- Scripts -->
-	<script src="<?php usePublicCdn(); ?>/Lens/js/jquery.min.js"></script>
-	<script src="<?php usePublicCdn(); ?>/Lens/js/browser.min.js"></script>
-	<script src="<?php usePublicCdn(); ?>/Lens/js/breakpoints.min.js"></script>
-	<script src="<?php usePublicCdn(); ?>/Lens/js/main.js"></script>
+	<script src="/usr/themes/Brave/Lens/js/jquery.min.js"></script>
+	<script src="/usr/themes/Brave/Lens/js/browser.min.js"></script>
+	<script src="/usr/themes/Brave/Lens/js/breakpoints.min.js"></script>
+	<script src="/usr/themes/Brave/Lens/js/main.js"></script>
 </body>
 
 </html>
