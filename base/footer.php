@@ -50,8 +50,8 @@ jQuery(function () {
 </script>
 <!--雪花特效-->
 <!--<script src="https://cdn.jsdelivr.net/gh/pyrrole-ach/IMG/snowy.js"></script>-->
-<script src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+<script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+<script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/nprogress/0.2.0/nprogress.min.js"></script>
 <script>
 	window.showSiteRuntime = function() {
 		site_runtime = $("#site_runtime");
@@ -108,17 +108,6 @@ jQuery(function () {
 		meet_runtime.html("第 <span class=\"bigfontNum\">" + D + "</span> 天 <span class=\"bigfontNum\">" + H + "</span> 小时 <span class=\"bigfontNum\">" + M + "</span> 分钟 <span class=\"bigfontNum\">" + S + "</span> 秒");
 	};
 	showMeetRuntime();
-	$(document).pjax('a', '#Pjax', {
-		fragment: '#Pjax',
-		timeout: 6000
-	});
-	$(document).on('pjax:send', function() {
-		NProgress.start();
-	});
-	$(document).on('pjax:complete', function() {
-		<?php if ($this->options->pjaxContent) : $this->options->pjax回调(); ?><?php endif; ?>
-		NProgress.done();
-	});
 </script>
 <script>
 	window.showEndRuntime = function() {
@@ -142,17 +131,6 @@ jQuery(function () {
 		<?php $this->options->anniversary() ?>.html("<span class=\"bigfontNum\">" + D + "</span> 天 <span class=\"bigfontNum\">" + H + "</span> 小时 <span class=\"bigfontNum\">" + M + "</span> 分钟 <span class=\"bigfontNum\">" + S + "</span> 秒");
 	};
 	showEndRuntime();
-	$(document).pjax('a', '#Pjax', {
-		fragment: '#Pjax',
-		timeout: 6000
-	});
-	$(document).on('pjax:send', function() {
-		NProgress.start();
-	});
-	$(document).on('pjax:complete', function() {
-		<?php if ($this->options->pjaxContent) : $this->options->pjax回调(); ?><?php endif; ?>
-		NProgress.done();
-	});
 </script>
 <script src="<?php $this->options->themeUrl('/base/main.js'); ?>"></script>
 <?php $this->footer(); ?>
@@ -295,10 +273,10 @@ jQuery(function () {
     }
 </style>
  <!--require APlayer -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<link rel="stylesheet" href="/usr/themes/Brave/assets/css/APlayer.min.css">
+<script src="/usr/themes/Brave/assets/js/APlayer.min.js"></script>
  <!--require MetingJS -->
-<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+<script src="/usr/themes/Brave/assets/js/Meting.min.js"></script>
 <meting-js
 	server="netease"
 	type="playlist"
