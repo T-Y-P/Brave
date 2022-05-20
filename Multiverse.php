@@ -43,10 +43,10 @@ function storage($storage)
 	<title><?php $this->title() ?> - <?php $this->options->title() ?></title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="<?php usePublicCdn(); ?>/Multiverse/css/main.css" />
+	<link rel="stylesheet" href="/usr/themes/Brave/Multiverse/css/main.css" />
 	<link rel="shortcut icon" href="<?php $this->options->siteUrl(); ?>/favicon.ico">
 	<noscript>
-		<link rel="stylesheet" href="<?php usePublicCdn(); ?>/Multiverse/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/usr/themes/Brave/Multiverse/css/noscript.css" /></noscript>
 	<!-- 百度统计 -->
 	<script>
 		var _hmt = _hmt || [];
@@ -158,12 +158,12 @@ function storage($storage)
 		document.getElementById("count_EN").innerHTML = document.getElementById("count_CN").innerHTML = datas.length;
 	</script>
 	<!-- Scripts -->
-	<script src="<?php usePublicCdn(); ?>/Multiverse/js/jquery.min.js"></script>
-	<script src="<?php usePublicCdn(); ?>/Multiverse/js/jquery.poptrox.min.js"></script>
-	<script src="<?php usePublicCdn(); ?>/Multiverse/js/browser.min.js"></script>
-	<script src="<?php usePublicCdn(); ?>/Multiverse/js/breakpoints.min.js"></script>
-	<script src="<?php usePublicCdn(); ?>/Multiverse/js/util.js"></script>
-	<script src="<?php usePublicCdn(); ?>/Multiverse/js/main.js"></script>
+	<script src="/usr/themes/Brave/Multiverse/js/jquery.min.js"></script>
+	<script src="/usr/themes/Brave/Multiverse/js/jquery.poptrox.min.js"></script>
+	<script src="/usr/themes/Brave/Multiverse/js/browser.min.js"></script>
+	<script src="/usr/themes/Brave/Multiverse/js/breakpoints.min.js"></script>
+	<script src="/usr/themes/Brave/Multiverse/js/util.js"></script>
+	<script src="/usr/themes/Brave/Multiverse/js/main.js"></script>
 </body>
 
 </html>
