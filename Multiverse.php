@@ -45,7 +45,7 @@ function storage($storage)
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="/usr/themes/Brave/Multiverse/css/main.css" />
 	<link rel="shortcut icon" href="<?php $this->options->siteUrl(); ?>/favicon.ico">
-	<noscript>
+<noscript>
 		<link rel="stylesheet" href="/usr/themes/Brave/Multiverse/css/noscript.css" /></noscript>
 	<!-- 百度统计 -->
 	<script>
@@ -64,7 +64,7 @@ function storage($storage)
 	<div id="wrapper">
 		<!-- Header -->
 		<header id="header">
-			<h1><a href="<?php $this->permalink() ?>"><strong><?php $this->title() ?></strong> Powered by ZDSR</a></h1>
+			<h1><a href="<?php $this->options->siteUrl(); ?>"><strong>Home</strong></a></h1>
 			<nav>
 				<ul>
 					<li><a href="#footer" class="icon solid fa-info-circle">关于</a></li>
@@ -80,9 +80,9 @@ function storage($storage)
 				<div>
 					<section>
 						<h2>控制台</h2>
-						<p>本系统共有<span id="count_CN"></span>张图片，前端样式Multiverse由HTML5UP设计。</p>
-						<h2>Console</h2>
-						<p>The system has a total of <span id="count_EN"></span> pictures, style Multiverse is designed by HTML5UP.</p>
+						<p>本相册共有<span id="count_CN"></span>张图片</p>
+						<!--<h2>Console</h2>-->
+						<!--<p>The system has a total of <span id="count_EN"></span> pictures, style Multiverse is designed by HTML5UP.</p>-->
 					</section>
 					<section>
 						<ul class="icons">
@@ -102,7 +102,7 @@ function storage($storage)
 					</section>
 					<p class="copyright">
 						<!-- 虽说本页面制作容易，但也需要一点点时间编辑，请保留版权信息。 -->
-						&copy; 2020 <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a> Powered by <a href="https://github.com/616620131/photo-page-for-typecho">ZDSR</a> Based HTML5UP</a>.
+						&copy; 2022 <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a> Powered by <a href="https://github.com/616620131/photo-page-for-typecho">ZDSR</a> Based HTML5UP</a>.
 					</p>
 				</div>
 				<div>
@@ -157,7 +157,6 @@ function storage($storage)
 		creatArticle(datas);
 		document.getElementById("count_EN").innerHTML = document.getElementById("count_CN").innerHTML = datas.length;
 	</script>
-	<!-- Scripts -->
 	<script src="/usr/themes/Brave/Multiverse/js/jquery.min.js"></script>
 	<script src="/usr/themes/Brave/Multiverse/js/jquery.poptrox.min.js"></script>
 	<script src="/usr/themes/Brave/Multiverse/js/browser.min.js"></script>
