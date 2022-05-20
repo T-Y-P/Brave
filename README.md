@@ -17,4 +17,10 @@ Typecho情侣主题Brave由[Veen Zhao](https://blog.zwying.com/)设计，主题�
 12. 添加时光机页面（基于祝福板，如何使用请参考：https://mp.weixin.qq.com/s/DmLANIAvHVWzeq4MXYsidg ）
 13. 美化点点滴滴文章的翻页按钮
 
-**欢迎大家为我的网站送上祝福**：https://xiaoya.pyrroleach.com
+---
+
+原作者更新了新的css及js CDN源，也顺带使用了作者提供的链接，解决了jsDelivr挂掉后相册失去样式的问题
+
+---
+
+此主题美化不再更新
