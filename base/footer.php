@@ -287,7 +287,7 @@ jQuery(function () {
 	>
 </meting-js>
 <!--评论框粒子特效-->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pyrrole-ach/IMG/comment.js"></script>
+<script type="text/javascript" src="/usr/themes/Brave/assets/js/comment.js"></script>
 <!--灯笼-->
 <!--<div class="deng-box2">-->
 <!--  <div class="deng">-->
